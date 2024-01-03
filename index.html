@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAP INSIDE WEBPAGE</title>
+    <style>
+        *{
+ margin : 0;
+ padding : 0;
+ box-sizing: border-box;
+}
+html,body{
+    width : 100%;
+    height : 100%
+}
+#main{
+    width : 100%;
+    height : 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#heading{
+    color: #333;
+    margin-bottom: 60px;
+}
+
+#map{
+    width:80%;
+    height: 500px;
+    filter: invert(100%);
+}
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h1 id="heading">MAP INSIDE A WEBPAGE</h1>
+
+        <iframe id=map src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3863.896540184651!2d79.99228587423052!3d14.433125481156774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4cf3450acca9a1%3A0xf05f6444b57e81b1!2sNARAYANA%20ENGINEERING%20COLLEGE%2C%20NELLORE.!5e0!3m2!1sen!2sin!4v1699536550062!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+    
+</body>
+</html>
